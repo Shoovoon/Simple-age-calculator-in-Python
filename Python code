@@ -1,0 +1,16 @@
+#Finding correct age:
+from datetime import date
+current_year = date.today().year
+
+birth_year = input("What\'s your Birth year? ")
+
+
+
+age = (current_year - int(birth_year))
+
+#print(f"So, you are {age} year\'s old.")
+print(age)
+
+#if i dont convert the birth_year to int, it will cause type error (TypeError: unsupported operand type(s) for -: 'int' and 'str'
+) as birthyear input saves as a str.
+
