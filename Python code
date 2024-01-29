@@ -4,7 +4,7 @@ current_year = date.today().year
 
 birth_year = input("What\'s your Birth year? ")
 
-
+#\ to tell editor that ' is not for coding but part of paragraph.
 
 age = (current_year - int(birth_year))
 
